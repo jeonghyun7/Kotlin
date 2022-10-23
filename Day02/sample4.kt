@@ -7,7 +7,7 @@ package com.example.hyunpractice
      1) 메소드의 파라미터로 넘겨줄수가 있다. fun maxBy(a :Int)
      2) return 값으로 사용할 수가 있다.
 
-    - 람다의 기본정의
+    - 람다 기본정의
       val lamdaName : Type = {argumentList -> codeBody}
 */
 
@@ -37,7 +37,7 @@ fun main(){
     }
     println(invokeLamda(lamda))
     println(invokeLamda({ it > 3.22 }))
-    println(invokeLamda{ it > 3.22 }) //function의 마지막 파라미터가 람다식일 경우 이런식으로 사용가능.
+    println(invokeLamda{ it > 3.22 }) // function의 마지막 파라미터가 람다식일 경우 이런식으로 사용가능.
 }
 
 
