@@ -1,0 +1,8 @@
+/* 1부터 10까지 더하는 예제 작성 */
+
+fun main() {
+
+    var sum = 0
+    for (x in 1..10) sum += x
+    println("sum: $sum")
+}
