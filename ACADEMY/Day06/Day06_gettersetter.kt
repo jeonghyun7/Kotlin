@@ -1,0 +1,20 @@
+/* 게터와 세터가 작동하는 방식 */
+
+// 주 생성자에 3개의 매개변수 정의
+class User(_id: Int, _name: String, _age: Int) {
+    // 프로퍼티들
+    val id: Int = _id   // 불변 ( 읽기 전용 )
+    var name: String = _name    // 변경 가능
+    var age: Int = _age //변경 가능
+}
+fun main() {
+    val user = User(1, "Sean", 30)
+
+    // 게터에 의한 값 획득
+    val name = user.name
+
+    // 세터에 의한 값 지정
+    user.age = 41
+
+    println("name: $name, ${user.age}")
+}
