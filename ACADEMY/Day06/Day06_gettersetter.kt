@@ -3,7 +3,7 @@
 // 주 생성자에 3개의 매개변수 정의
 class User(_id: Int, _name: String, _age: Int) {
     // 프로퍼티들
-    val id: Int = _id   // 불변 ( 읽기 전용 )
+    val id: Int = _id   // 불변(읽기 전용)
     var name: String = _name    // 변경 가능
     var age: Int = _age //변경 가능
 }
