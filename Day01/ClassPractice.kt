@@ -1,7 +1,7 @@
 package com.example.hyunpractice
 
 
-open class Human constructor(val name : String = "Anonymous") { //constructor는 생략가능
+open class Human constructor(val name : String = "Anonymous") { // constructor는 생략가능
 
     // constructor로 부생성자를 만들수 있으며 사용시 this 예약어를 사용하여 주생성자 변수 이름을 받아와야한다.
     constructor(name: String, age:Int) : this(name) {
