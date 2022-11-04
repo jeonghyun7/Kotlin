@@ -44,7 +44,7 @@ fun main(){
     korean.singAsong()
 //    val human = Human("minsu")
 //
-//    val stranger = Human() //디폴트값("Anonymous")을 주었기때문에 빈생성자도 생성되어 있음
+//    val stranger = Human() // 디폴트값("Anonymous")을 주었기때문에 빈생성자도 생성되어 있음
 //
 //    human.eatingCake()
 
