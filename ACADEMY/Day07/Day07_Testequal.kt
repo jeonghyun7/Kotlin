@@ -6,8 +6,8 @@ val cus3 = cus1.copy(name="Alice")  // name만 변경하고자 할 때
 
 fun main(){
     println(cus1==cus2) // 동등성비교true
-    println(cus1.equals(cus2)) // 위와동일true
-    println("${cus1.hashCode()}, ${cus2.hashCode()}") // 고유값도동일
+    println(cus1.equals(cus2)) // 위와 동일 true
+    println("${cus1.hashCode()}, ${cus2.hashCode()}") // 고유값도 동일
     println(cus1.toString())
     println(cus2.toString())
     println(cus3.toString())
@@ -19,7 +19,7 @@ data class Customer1(var name: String, var email: String) {
         job = _job
     }
     init{
-        // 간단한로직은여기에
+        // 간단한로직은 여기에
 
     }
 }
