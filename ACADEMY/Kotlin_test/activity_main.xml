@@ -29,6 +29,7 @@
             android:text="Start"
             android:textColor="#FFFFFF"
             android:textStyle="bold" />
+        
         <Button
             android:id="@+id/stopButton"
             android:layout_width="100dp"
@@ -39,6 +40,7 @@
             android:text="Stop"
             android:textColor="#FFFFFF"
             android:textStyle="bold" />
+        
         <Button
             android:id="@+id/resetButton"
             android:layout_width="100dp"
